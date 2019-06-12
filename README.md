@@ -18,7 +18,7 @@ We increase the number of training samples of the classes with less 100 images (
 
 
 # Training
-We train Inceptionv3, ResNet152, and InceptionResnetv2 DCNN models with  pytorch using the region proposals from our background subtraction. We collected bounding box annotations from iNaturalist images 2017/2018 of the missing classes (9 classes) of the provided camera trap training images.
+We train Inceptionv3, ResNet152, and InceptionResnetv2 DCNN models with  pytorch using the region proposals from our background subtraction. We collected bounding box annotations from iNaturalist images 2017/2018 of the missing classes (9 classes) from the provided camera trap training images.
 
 
 # Testing
@@ -38,6 +38,7 @@ B) Matlab Part:
 3- The majority voting from the three DCNN models can be applied for better results using "mode" Matlab command.
 
 #Citation
+
 @article{yousif2019dynamic,
 title={Dynamic Programming Selection of  Object Proposals  for  Sequence-Level Animal Species Classification in the Wild},
 author={Yousif, Hayder and Kays, Roland and He, Zhihai},
@@ -45,6 +46,7 @@ journal={IEEE Transactions on Circuits and Systems for Video Technology},
 year={2019},
 publisher={IEEE}
 }
+
 @article{yousif2018object,
   title={Object detection from dynamic scene using joint background modeling and fast deep learning classification},
   author={Yousif, Hayder and Yuan, Jianhe and Kays, Roland and He, Zhihai},
