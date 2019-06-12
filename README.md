@@ -31,9 +31,29 @@ We save the test patch (region proposal) ID, prediction class, and softmax featu
 B) Matlab Part:
 1- Each sequence should have a folder containing it's patches similar to:
 > testseq.txt
+
 2- Image-level prediction for each model can be obtained:
 > Test_images_prediction.m
+
 3- The majority voting from the three DCNN models can be applied for better results using "mode" Matlab command.
+
+#Citation
+@article{yousif2019dynamic,
+title={Dynamic Programming Selection of  Object Proposals  for  Sequence-Level Animal Species Classification in the Wild},
+author={Yousif, Hayder and Kays, Roland and He, Zhihai},
+journal={IEEE Transactions on Circuits and Systems for Video Technology},
+year={2019},
+publisher={IEEE}
+}
+@article{yousif2018object,
+  title={Object detection from dynamic scene using joint background modeling and fast deep learning classification},
+  author={Yousif, Hayder and Yuan, Jianhe and Kays, Roland and He, Zhihai},
+  journal={Journal of Visual Communication and Image Representation},
+  volume={55},
+  pages={802--815},
+  year={2018},
+  publisher={Elsevier}
+}
 
 
 
