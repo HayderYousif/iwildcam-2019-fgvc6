@@ -37,7 +37,7 @@ B) Matlab Part:
 
 3- The majority voting from the three DCNN models can be applied for better results using "mode" Matlab command.
 
-#Citation
+# Citation
 
 @article{yousif2019dynamic,
 title={Dynamic Programming Selection of  Object Proposals  for  Sequence-Level Animal Species Classification in the Wild},
